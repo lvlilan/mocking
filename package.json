@@ -10,5 +10,11 @@
       "/node_modules/",
       "src/http.js"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2"
   }
 }

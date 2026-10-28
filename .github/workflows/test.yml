@@ -11,4 +11,5 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci --include=dev
+      - run: ls node_modules/.bin/ | grep jest || echo "JEST NOT FOUND"
       - run: npm test
