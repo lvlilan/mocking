@@ -1,0 +1,14 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "src/http.js"
+    ]
+  }
+}
